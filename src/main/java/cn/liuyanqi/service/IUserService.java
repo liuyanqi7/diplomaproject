@@ -1,5 +1,9 @@
 package cn.liuyanqi.service;
 
+import cn.liuyanqi.entity.User;
+
+import java.util.List;
+
 /**
  * @BelongsProject: projectHouse
  * @BelongsPackage: cn.liuyanqi.service
@@ -8,6 +12,7 @@ package cn.liuyanqi.service;
  * @Description: user
  * @Version: 1.0
  */
-public class IUserService {
+public interface IUserService {
 
+    List<User> checkLogin(User user);
 }

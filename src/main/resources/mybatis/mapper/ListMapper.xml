@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.liuyanqi.dao.IListDao">
+        <select id="listInfo"  parameterType="map" resultType="House">
+            select id ,title,style,area
+            from t_house
+        </select>
+<!--
+        <select id="listCout"  parameterType="map">
+            select count(*)
+            from t_house
+        </select>-->
+</mapper>

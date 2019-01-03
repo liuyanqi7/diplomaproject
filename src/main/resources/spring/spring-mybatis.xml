@@ -37,7 +37,7 @@
     </bean>
     <!-- 扫描所有的dao接口 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.qi.dao"/>
+        <property name="basePackage" value="cn.liuyanqi.dao"/>
         <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
     </bean>
 

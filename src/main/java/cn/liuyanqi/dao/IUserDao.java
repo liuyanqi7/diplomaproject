@@ -12,11 +12,12 @@ import java.util.List;
  * @Description: user管理
  * @Version: 1.0
  */
+
 public interface IUserDao {
 
     /*
      *用户登录
      */
-    List<User> checkL0ogin(User user);
+    List<User> checkLogin(User user);
 
 }

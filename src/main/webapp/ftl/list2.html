@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="header" class="wrap">
+    <div id="logo"><img src="${pageContext.request.contextPath }/images/logo.gif" /></div>
+    <div class="search">
+        <!--
+            <form method="get">
+                <input class="text" type="text" name="keywords" />
+                <label class="ui-green"><input type="button" name="search" value="搜索房屋" /></label>
+            </form>
+        -->	<label class="ui-green"><input onclick="toUrl('add2.jsp');" type="button" name="search" value="发布房屋信息" /></label>
+        <label class="ui-green"><input type="button" name="search" value="退       出"></label>
+    </div>
+</div>
+<div class="main wrap">
+    <table class="house-list">
+
+
+        <tbody id="data">
+
+        </tbody>
+    </table>
+    <div id="fenye"></div>
+</div>
+<DIV id=footer class=wrap>
+    <DL>
+        <DT>阿猪租房 © 2018 阿猪 豫ICP备18040605号</DT>
+        <DD>关于我们 · 联系方式 · 意见反馈 · 帮助中心</DD></DL></DIV>
+</body>
+</html>

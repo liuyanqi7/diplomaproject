@@ -1,0 +1,183 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" >
+<!-- saved from url=(0030)http://localhost:8080/House-2/ -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>云和租房 - 首页</TITLE>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type>
+<LINK rel=stylesheet type=text/css href="../css/style.css">
+<META name=GENERATOR content="MSHTML 8.00.7601.17514"></HEAD>
+<BODY>
+<script src="/ftl/js/vue/vue.min.js"></script>
+<script src="/ftl/js/jquery/jquery.min.js"></script>
+<script src="/ftl/js/laypage/laypage.js" charset="utf-8"></script>
+<script src="/ftl/js/layer/layer.js" charset="utf-8"></script>
+<DIV id=header class=wrap>
+<DIV id=logo><IMG src="../images/logo.gif"></DIV></DIV>
+<DIV id=navbar class=wrap>
+<DL class="search clearfix">
+  <FORM id=sform method=post action=search.action>
+  <DT>
+  <UL>
+    <LI class=bold>房屋信息</LI>
+    <LI>标题：<INPUT class=text type=text name=title> <LABEL class=ui-blue><INPUT onclick=doSearch() value=搜索房屋 type=button name=search></LABEL> 
+    </LI></UL></DT>
+  <DD>
+  <UL>
+    <LI class=first>价格 </LI>
+    <LI><SELECT name=price> <OPTION selected value="">不限</OPTION> <OPTION 
+      value=0-100>100元以下</OPTION> <OPTION value=100-200>100元—200元</OPTION> 
+      <OPTION value=200-1000000>200元以上</OPTION></SELECT> </LI></UL></DD>
+  <DD>
+  <UL>
+    <LI class=first>房屋位置</LI>
+    <LI><SELECT id=street name=street_id> <OPTION selected 
+      value="">不限</OPTION> <OPTION value=1000>知春路</OPTION> <OPTION 
+      value=1001>中关村大街</OPTION> <OPTION value=1002>学院路</OPTION> <OPTION 
+      value=1003>朝阳路</OPTION></SELECT> </LI></UL></DD>
+  <DD>
+  <UL>
+    <LI class=first>房型</LI>
+    <LI><SELECT name=type_id> <OPTION selected value="">不限</OPTION> <OPTION 
+      value=1000>一室一厅</OPTION> <OPTION value=1001>一室两厅</OPTION> <OPTION 
+      value=1002>两室一厅</OPTION> <OPTION value=1003>两室两厅</OPTION></SELECT> 
+  </LI></UL></DD>
+  <DD>
+  <UL>
+    <LI class=first>面积 </LI>
+    <LI><SELECT name=floorage> <OPTION selected value="">不限</OPTION> <OPTION 
+      value=0-40>40以下</OPTION> <OPTION value=40-500>40-500</OPTION> <OPTION 
+      value=500-1000000>500以上</OPTION></SELECT> </LI></UL></DD></FORM></DL></DIV>
+<DIV class="main wrap">
+<TABLE class=house-list>
+  <TBODY>
+  <tr class="active" v-for="(item,index) in result">
+    <td>{{item.area}}</td>
+    <td>{{item.age}}</td>
+    <td><a href="#" @click="editEvent(item.id)">编辑</a>    <a href="#" @click="delEvent(item.id)">删除</a></td>
+  </tr>
+  </TBODY></TABLE></DIV>
+<DIV id=footer class=wrap>
+  <DL>
+    <DT>阿猪租房 © 2018 阿猪 豫ICP备18040605号</DT>
+    <DD>关于我们 · 联系方式 · 意见反馈 · 帮助中心</DD></DL></DIV>
+<script>
+    var app = new Vue({
+        el : '#app',
+        data : {
+            result : [],
+            name: "123"
+        }
+    });
+
+
+    //查询用户数据
+    var getUserPageList = function(curr) {
+        $.ajax({
+            type : "GET",
+            dataType : "json",
+            url : "/getPage",
+            data : {
+                pageNum:curr || 1,
+                pageSize:5,
+              /*  userName:$("#username").val()*/
+            },
+            success : function(msg) {
+                app.result=msg.page;
+                laypage({
+                    cont : 'pagenav', //容器。值支持id名、原生dom对象，jquery对象,
+                    pages : msg.totalPage, //总页数
+                    first : '首页',
+                    last : '尾页',
+                    curr : curr || 1, //当前页
+
+                    jump : function(obj, first) { //触发分页后的回调
+
+                        if (!first) { //点击跳页触发函数自身，并传递当前页：obj.curr
+
+                            getUserPageList(obj.curr);
+                        }
+                    }
+                });
+
+
+
+            }
+        });
+    }
+
+    getUserPageList();
+
+    //查询用户事件
+
+    $('#findUser').on('click', function() {
+        getUserPageList();
+    });
+
+
+    //编辑用户事件
+
+    var editEvent = function(id) {
+        layer.open({
+            type : 2,
+            title : '编辑用户',
+            fix : false,
+            maxmin : true,
+            shadeClose : true,
+            area : [ '1100px', '600px' ],
+            content : '/editpage?id='+id,
+            end : function() {
+                getUserPageList();
+            }
+        });
+    }
+
+    //增加用户事件
+
+    $('#addUserBtn').on('click', function() {
+        layer.open({
+            type : 2,
+            title : '添加用户',
+            fix : false,
+            maxmin : true,
+            shadeClose : true,
+            area : [ '1100px', '600px' ],
+            content : '/ftl/add.html',
+            end : function() {
+                getUserPageList();
+            }
+        });
+
+    });
+
+
+    //删除用户事件
+    var delEvent = function(id) {
+        //询问框
+        layer.confirm('您确定要删除么？', {
+            btn : [ '是', '否' ]
+            //按钮
+        }, function() {
+            //是
+            $.ajax({
+                type : "GET",
+                dataType : "json",
+                url : "/del",
+                data : {
+                    id:id
+                },
+                success : function(msg) {
+                    getUserPageList();
+                    layer.msg('已经成功删除记录' + id,{icon:5});
+                }
+            });
+
+        }, function() {
+            //否
+
+        });
+    }
+
+
+
+
+</script>
+</BODY>
+</HTML>
