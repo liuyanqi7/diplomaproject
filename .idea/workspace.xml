@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fdba25f-2cd9-4af7-97fd-1ddddd3dfd89" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductAllComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductAllComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductDateComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductDateComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductPriceComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductPriceComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductReviewComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductReviewComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductSaleCountComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductSaleCountComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/CORSConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/CORSConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/WebMvcConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/WebMvcConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/CategoryDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/CategoryDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/OrderDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/OrderDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/OrderItemDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/OrderItemDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/ProductDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/ProductDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/ProductImageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/ProductImageDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/PropertyDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/PropertyDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/PropertyValueDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/PropertyValueDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/ReviewDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/ReviewDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/es/ProductESDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/es/ProductESDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/exception/GloabalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/exception/GloabalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/interceptor/OtherInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/interceptor/OtherInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/ProductImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/ProductImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Property.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Property.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Category.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="206" column="1" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/OrderItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="739">
+              <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/ProductImage.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Property.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="758">
+              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/productsBySearch.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/modal4login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/modal4deleteConfirm.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/footer.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/product/imgAndInfo.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/product/productDetail.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/product/productPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/product/productReview.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/home/carousel.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/home/productsAsideCategorys.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/category/categoryPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/category/productsByCategory.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/category/sortBar.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/reviewPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/payedPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/confirmPayPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/orderConfirmedPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/cartPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/buyPage.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/boughtPage.html" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liuyanqi/desgin/tmall_springboot/TmallSpringbootApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liuyanqi/desgin/TmallSpringbootApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/liuyanqi/desgin/TestApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/OrderDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductAllComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductDateComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductPriceComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductReviewComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductSaleCountComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/CORSConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/ShiroConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/WebMvcConfigurer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/CategoryDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/OrderItemDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/ProductDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/ProductImageDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/PropertyDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/PropertyValueDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/ReviewDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/es/ProductESDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/exception/GloabalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/interceptor/OtherInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Category.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Order.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/OrderItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/ProductImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Property.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="47" />
+    <option name="y" value="6" />
+    <option name="width" value="1393" />
+    <option name="height" value="748" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="diplomaproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diplomaproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diplomaproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diplomaproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diplomaproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diplomaproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diplomaproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diplomaproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diplomaproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diplomaproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="desgin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diplomaproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diplomaproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="desgin" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diplomaproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diplomaproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="diplomaproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="diplomaproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555320296065" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.liuyanqi.desgin" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="graduation_desgin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.liuyanqi.desgin.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fdba25f-2cd9-4af7-97fd-1ddddd3dfd89" name="Default Changelist" comment="" />
+      <created>1555317113368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555317113368</updated>
+      <workItem from="1555317115228" duration="3165000" />
+    </task>
+    <task id="LOCAL-00001" summary="201904015">
+      <created>1555319175918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555319175919</updated>
+    </task>
+    <task id="LOCAL-00002" summary="201904015">
+      <created>1555319647845</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555319647845</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3165000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="201904015" />
+    <option name="LAST_COMMIT_MESSAGE" value="201904015" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/product/imgAndInfo.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/product/productDetail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/product/productPage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/product/productReview.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/home/carousel.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/category/categoryPage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/category/productsByCategory.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/category/sortBar.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/home/categoryAndcarousel.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/home/categoryMenu.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/home/homePage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/home/homepageCategoryProducts.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/home/productsAsideCategorys.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/reviewPage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/payedPage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/confirmPayPage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/orderConfirmedPage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/cartPage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/buyPage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/include/fore/cart/boughtPage.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1631" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/liuyanqi/desgin/TestApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductAllComparator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductDateComparator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductPriceComparator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductReviewComparator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/comparator/ProductSaleCountComparator.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/CategoryDAO.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/OrderDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/OrderItemDAO.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/CORSConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/ShiroConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/config/WebMvcConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/ProductDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/ProductImageDAO.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/PropertyDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/PropertyValueDAO.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/ReviewDAO.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/es/ProductESDAO.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/exception/GloabalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/interceptor/OtherInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="206" column="1" selection-start-line="206" selection-start-column="1" selection-end-line="206" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/OrderItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="70" column="1" selection-start-line="70" selection-start-column="1" selection-end-line="70" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="140" column="1" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/ProductImage.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/liuyanqi/desgin/pojo/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="758">
+          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
