@@ -36,7 +36,7 @@
 				deleteOrderItem = false;
 				var oiid = $(this).attr("oiid")
 				deleteOrderItemid = oiid;
-				$("#deleteConfirmModal").modal('show');	   
+				$("#deleteConfirmModal").modal('show');
 			});
 			$("button.deleteConfirmButton").click(function(){
 				deleteOrderItem = true;
@@ -54,7 +54,8 @@
 						else{
 							location.href="login";
 						}
-		            });
+                        location.reload();
+                    });
 				}
 			})	
 			
@@ -222,7 +223,7 @@
 		}
 	</script>	
 	
-	<title>购物车</title>
+	<title>猫鼠租房</title>
 	<div class="cartDiv">
 		<div class="cartTitle pull-right">
 			<span>已选商品  (不含运费)</span>
@@ -240,9 +241,9 @@
 						全选
 						
 						</th>
-						<th>商品信息</th>
-						<th>单价</th>
-						<th>数量</th>
+						<th>房屋信息</th>
+						<th>月(日)租金</th>
+						<th>月数</th>
 						<th width="120px">金额</th>
 						<th class="operation">操作</th>
 					</tr>
@@ -266,7 +267,7 @@
 								
 							</td>
 							<td>
-								<span class="cartProductItemOringalPrice">￥{{oi.product.originalPrice|formatMoneyFilter}}</span>
+								<span class="cartProductItemPromotionPrice">￥{{oi.product.originalPrice|formatMoneyFilter}}</span>
 								<span  class="cartProductItemPromotionPrice">￥{{oi.product.promotePrice|formatMoneyFilter}}</span>
 								
 							</td>
@@ -283,7 +284,7 @@
 							 </td>
 							<td >
 								<span class="cartProductItemSmallSumPrice" :oiid="oi.id" :pid="oi.product.id" >
-									￥ {{oi.product.promotePrice*oi.number|formatMoneyFilter}} 
+									￥ {{oi.product.originalPrice*oi.number+oi.product.promotePrice|formatMoneyFilter}}
 								</span>
 							
 							</td>
