@@ -37,7 +37,7 @@ public class OrderItemService {
 		float total = 0;
 		int totalNumber = 0;			
 		for (OrderItem oi :orderItems) {
-			total+=oi.getNumber()*oi.getProduct().getPromotePrice();
+			total=total+oi.getNumber()*oi.getProduct().getOriginalPrice()+oi.getProduct().getPromotePrice();
 			totalNumber+=oi.getNumber();
 			productImageService.setFirstProdutImage(oi.getProduct());
 		}

@@ -34,7 +34,6 @@
 	                    	var result = response.data;
 	                    	var oid = result.data.oid;
 	                    	var total = result.data.total;
-	                    	alert(total);
 	                    	location.href="alipay?oid="+oid+"&total="+total;
 	                    });
 	            	}
@@ -155,7 +154,7 @@
 						</div>
 					</span>
 				</div>
-				<span class="pull-right">费用合计(含运费): ￥
+				<span class="pull-right">费用合计: ￥
 					{{total|formatMoneyFilter}}
 				</span>
 			</div>

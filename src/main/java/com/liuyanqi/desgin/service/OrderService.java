@@ -97,7 +97,7 @@ public class OrderService {
 		List<OrderItem> orderItems = o.getOrderItems();
 		float total = 0;
 		for (OrderItem orderItem : orderItems) {
-			total+=orderItem.getProduct().getPromotePrice()*orderItem.getNumber();
+			total =total+orderItem.getProduct().getPromotePrice()+orderItem.getProduct().getOriginalPrice()*orderItem.getNumber();
 		}
 		o.setTotal(total);
 	}

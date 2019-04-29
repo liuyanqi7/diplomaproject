@@ -56,19 +56,15 @@
 						<td><span class="reviewProductInfoTablePrice">￥{{p.originalPrice|formatMoneyFilter}}</span> 元 </td>
 					</tr>
 					<tr>
-						<td>配送</td>
-						<td>快递:  0.00</td>
-					</tr>
-					<tr>
-						<td>月销量:</td>
-						<td><span class="reviewProductInfoTableSellNumber">{{p.saleCount}}</span> 件</td>
+						<td>访问量:</td>
+						<td><span class="reviewProductInfoTableSellNumber">{{p.saleCount}}</span> 月</td>
 					</tr>
 				</table>
 				
 				<div class="reviewProductInfoRightBelowDiv">
 					<span class="reviewProductInfoRightBelowImg"><img1 src="img/site/reviewLight.png"></span>
-					<span v-if="null!=o" class="reviewProductInfoRightBelowText" >现在查看的是 您所购买商品的信息
-	于 {{o.createDate | formatDateFilter('YYYY-MM-DD')}} 下单购买了此商品 </span>
+					<span v-if="null!=o" class="reviewProductInfoRightBelowText" >现在查看的是 您所签约的房屋的信息
+	于 {{o.createDate | formatDateFilter('YYYY-MM-DD')}} 签约 </span>
 				
 				</div>
 			</div>
@@ -95,10 +91,10 @@
 		</div>
 		
 		<div v-show="!showReviews" class="makeReviewDiv">
-				<div class="makeReviewText">其他买家，需要你的建议哦！</div>
+				<div class="makeReviewText">其他租客，需要你的建议哦！</div>
 				<table class="makeReviewTable">
 					<tr>
-						<td class="makeReviewTableFirstTD">评价商品</td>
+						<td class="makeReviewTableFirstTD">评价</td>
 						<td><textarea v-model="content"></textarea></td>
 					</tr>
 				</table>

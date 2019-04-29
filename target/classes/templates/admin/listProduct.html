@@ -52,7 +52,7 @@
                     this.bean.category.id=cid;
                     axios.post(url,this.bean).then(function(response){
                         vue.list(0);
-                        vue.bean =  {id:0,name:'','subTitle':'','originalPrice':99.98,'promotePrice':19.98,'stock':99,category:{'id':0}};
+                        vue.bean =  {id:0,name:'','subTitle':'','originalPrice':100.00,'promotePrice':10.00,'stock':12,category:{'id':0}};
                     });
                 },
                 deleteBean: function (id) {
@@ -83,7 +83,7 @@
     <ol class="breadcrumb">
         <li><a href="admin_category_list">所有分类</a></li>
         <li><a :href="'admin_product_list?cid='+category.id">{{category.name}}</a></li>
-        <li class="active">产品管理</li>
+        <li class="active">房屋管理</li>
     </ol>
 
     <div class="listDataTableDiv">
@@ -92,11 +92,11 @@
             <tr class="success">
                 <th>ID</th>
                 <th>图片</th>
-                <th>产品名称</th>
-                <th>产品小标题</th>
-                <th width="53px">原价格</th>
-                <th width="80px">优惠价格</th>
-                <th width="80px">库存数量</th>
+                <th>售房名称</th>
+                <th>副标题/位置</th>
+                <th width="80px">月租金</th>
+                <th width="80px">中介费用</th>
+                <th width="80px">合同时长</th>
 
                 <th width="80px">图片管理</th>
                 <th width="80px">设置属性</th>
@@ -137,25 +137,25 @@
     <div th:replace="include/admin/adminPage::html" ></div>
 
     <div class="panel panel-warning addDiv">
-        <div class="panel-heading">新增产品</div>
+        <div class="panel-heading">新增出售</div>
         <div class="panel-body">
             <table class="addTable">
                 <tr>
-                    <td>产品名称</td>
+                    <td>房屋名称</td>
                     <td><input  @keyup.enter="add" v-model.trim="bean.name" type="text" class="form-control"></td>
                 </tr>
                 <tr>
-                    <td>产品小标题</td>
+                    <td>副标题/位置</td>
                     <td><input  @keyup.enter="add" v-model.trim="bean.subTitle" type="text"
                                 class="form-control"></td>
                 </tr>
                 <tr>
-                    <td>原价格</td>
+                    <td>月价格</td>
                     <td><input  @keyup.enter="add" v-model.trim="bean.originalPrice"  type="text"
                                 class="form-control"></td>
                 </tr>
                 <tr>
-                    <td>优惠价格</td>
+                    <td>中介费用</td>
                     <td><input  @keyup.enter="add" v-model.trim="bean.promotePrice" type="text"
                                 class="form-control"></td>
                 </tr>

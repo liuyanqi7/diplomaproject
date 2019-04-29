@@ -67,12 +67,12 @@
             <tr class="success">
                 <th>状态</th>
                 <th>金额</th>
-                <th width="100px">商品数量</th>
-                <th width="100px">买家名称</th>
+                <th width="100px">首付月数</th>
+                <th width="100px">租客名称</th>
                 <th>创建时间</th>
                 <th>支付时间</th>
-                <th>发货时间</th>
-                <th>确认收货时间</th>
+                <th>签约时间</th>
+                <th>确认时间</th>
                 <th width="120px">操作</th>
             </tr>
             </thead>
@@ -107,7 +107,7 @@
                     <td>
                         <button @click="showOrderItems(bean)" class="orderPageCheckOrderItems btn btn-primary btn-xs">查看详情</button>
 
-                        <button v-if="bean.status=='waitDelivery'" @click="deliveryOrder(bean,$event)" class="btn btn-primary btn-xs">发货</button>
+                        <button v-if="bean.status=='waitDelivery'" @click="deliveryOrder(bean,$event)" class="btn btn-primary btn-xs">签约</button>
                     </td>
                 </tr>
                 <tr class="orderPageOrderItemTR"  :id="'orderItemsTR'+bean.id">

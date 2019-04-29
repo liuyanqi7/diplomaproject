@@ -46,11 +46,11 @@
 			<table class="confirmPayOrderItemTable">
 				<thead>
 					<tr>
-						<th colspan="2">宝贝</th>		
-						<th width="120px">单价</th>		
-						<th width="120px">数量</th>		
-						<th width="120px">商品总价 </th>		
-						<th width="120px">运费</th>	
+						<th colspan="2">房屋</th>
+						<th width="120px">月价</th>
+						<th width="120px">时间(月/日)</th>
+						<th width="120px">总价 </th>
+
 					</tr>	
 				</thead>
 					<tr v-for="oi in order.orderItems">
@@ -61,7 +61,6 @@
 						<td>￥{{oi.product.originalPrice|formatMoneyFilter}}</td>
 						<td>1</td>
 						<td><span class="conformPayProductPrice">￥{{oi.product.promotePrice|formatMoneyFilter}}</span></td>
-						<td><span>快递 ： 0.00 </span></td>
 					</tr>
 			</table>
 			

@@ -55,36 +55,36 @@
     <ol class="breadcrumb">
         <li><a href="admin_category_list">所有分类</a></li>
         <li><a :href="'admin_product_list?cid='+category.id">{{category.name}}</a></li>
-        <li class="active">产品管理</li>
+        <li class="active">租房管理</li>
     </ol>
 
 
 
     <div class="panel panel-warning editDiv">
-        <div class="panel-heading">编辑产品</div>
+        <div class="panel-heading">编辑</div>
         <div class="panel-body">
             <table class="editTable">
                 <tr>
-                    <td>产品名称</td>
+                    <td>租房名称</td>
                     <td><input  @keyup.enter="update" v-model.trim="bean.name" type="text" class="form-control"></td>
                 </tr>
                 <tr>
-                    <td>产品小标题</td>
+                    <td>副标题/位置</td>
                     <td><input  @keyup.enter="update" v-model.trim="bean.subTitle" type="text"
                                 class="form-control"></td>
                 </tr>
                 <tr>
-                    <td>原价格</td>
+                    <td>每月价格</td>
                     <td><input  @keyup.enter="update" v-model.trim="bean.originalPrice"  type="text"
                                 class="form-control"></td>
                 </tr>
                 <tr>
-                    <td>优惠价格</td>
+                    <td>中介费用</td>
                     <td><input  @keyup.enter="update" v-model.trim="bean.promotePrice" type="text"
                                 class="form-control"></td>
                 </tr>
                 <tr>
-                    <td>库存</td>
+                    <td>合同时长</td>
                     <td><input  @keyup.enter="update" v-model.trim="bean.stock"  type="text"
                                 class="form-control"></td>
                 </tr>
